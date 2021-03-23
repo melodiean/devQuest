@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    background-color: rgba(212, 212, 212, 0.486);
+  }
+  
+.App {
+  text-align: center;
+  margin: 1em;
+
+}
+
+h1 {
+  position: relative;
+  top: 0;
+  bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+  margin: 10px;
+}
+
+.progress {
+margin: 5em 0;}
+
+li {
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}
+
+img{
+  width: 100%;
+  height: 65vh;
+}
+
+.log{
+  margin: 2em 25vw;
+}
+
+.qn{
+  background-color: rgba(212, 212, 212, 0.486);
+  text-align: left;
+}
+.qn_text{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.qn_info{
+  color: teal;
+  display: flex;
+  margin: 3px;
+}
+
+.qn_info button{
+  border: none;
+  color: teal;
+  background-color: inherit;
+}
+
+input::placeholder{
+  color: silver;
+}
